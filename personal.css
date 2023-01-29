@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #111;
+
+}
+
+h1 {
+  /* margin :0 auto 0 auto; when width is declared*/
+
+  margin: 0;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive, Helvetica;
+  font-size: 5.16rem;
+  color: #fff;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
+
+h2 {
+  font-family: 'Montserat',sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0 auto 0 auto;
+  color: #fff;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-family: 'Montserat',sans-serif;
+  color: #fff;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.majak {
+  color: #fff;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.word {
+  text-decoration-line: underline;
+  text-decoration: underline ;
+   color: #fff;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.first-container {
+  background-color: #111;
+  position: relative;
+  padding: 50px;
+  height: 10%;
+}
+
+.middle-container {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  line-height: 2;
+}
+
+.ppp {
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+ background-color: #111;
+ padding: 40px;
+ margin-top: 50px
+ 
+}
+
+.rock1 {
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  
+  height: 200px;
+  width: 100px;
+
+}
+
+.mountain {
+  position: absolute;
+  left: 620px;
+  height: 35%;
+  bottom: 150px;
+  
+ 
+
+}
+
+
+.rock2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 200px;
+
+}
+
+
+
+a {
+  color: #155c8c;
+ 
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto ;
+  text-align: left;
+  
+  
+}
+
+.pic{
+  width: 15%;
+  margin: top 0;
+}
+
+
+.code {
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+}
+
+.chill {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+hr {
+  border: dotted #11999E 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto;
+}
+
+p {
+  color: #fff;
+  line-height: 2;
+  color: #fff;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+  
+}
+
+.h2skill {
+  margin-bottom: 0;
+}
+
+.footer-link {
+  
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  
+  
+  
+}
+
+.footer-link:hover {
+text-decoration-color: #f0ec04;
+
+  
+  
+
+}
+
+.btn {
+  background: #155c8c;
+  background-image: -webkit-linear-gradient(top, #155c8c, #2980b9);
+  background-image: -moz-linear-gradient(top, #155c8c, #2980b9);
+  background-image: -ms-linear-gradient(top, #155c8c, #2980b9);
+  background-image: -o-linear-gradient(top, #155c8c, #2980b9);
+  background-image: linear-gradient(to bottom, #155c8c, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserat',sans-serif;
+  color: #ede911;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  
+}
+
+.btn:hover {
+  background: #060d12;
+  background-image: -webkit-linear-gradient(top, #060d12, #3498db);
+  background-image: -moz-linear-gradient(top, #060d12, #3498db);
+  background-image: -ms-linear-gradient(top, #060d12, #3498db);
+  background-image: -o-linear-gradient(top, #060d12, #3498db);
+  background-image: linear-gradient(to bottom, #060d12, #3498db);
+  text-decoration: underline ;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.platform {
+  text-decoration: underline;
+}
+
+.alien {
+  position: relative;
+  left: 650px;
+  
+}
+
+.rate {
+  -webkit-text-fill-color: yellowgreen;
+}
+
+.heart {
+  height: 50px;
+  width: 100%;
+}
